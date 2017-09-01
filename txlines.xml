@@ -1,0 +1,150 @@
+	<simulation>
+		<simtitle>Transmission Lines iPhone</simtitle>
+		<nodesx>108</nodesx>
+		<nodesy>370</nodesy>
+		<nodesz>0</nodesz>
+		<timesteps>570</timesteps>
+		<vismode>Ez</vismode>
+        
+        <planewave>
+            <xstart>1</xstart>
+            <ystart>369</ystart>
+            <xend>16</xend>
+            <yend>369</yend>
+            <pwtype>STANDARD</pwtype>
+            <wavelength>60</wavelength>
+            <tsstart>0</tsstart>
+        </planewave>
+
+        <planewave>
+            <xstart>47</xstart>
+            <ystart>369</ystart>
+            <xend>61</xend>
+            <yend>369</yend>
+            <pwtype>STANDARD</pwtype>
+            <wavelength>60</wavelength>
+            <tsstart>0</tsstart>
+        </planewave>
+
+        <planewave>
+            <xstart>92</xstart>
+            <ystart>369</ystart>
+            <xend>106</xend>
+            <yend>369</yend>
+            <pwtype>STANDARD</pwtype>
+            <wavelength>60</wavelength>
+            <tsstart>0</tsstart>
+        </planewave>
+        
+        <boundary>
+            <xstart>1</xstart>
+            <ystart>5</ystart>
+            <xend>16</xend>
+            <yend>5</yend>
+            <bcond>MTC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+        <boundary>
+            <xstart>46</xstart>
+            <ystart>5</ystart>
+            <xend>61</xend>
+            <yend>5</yend>
+            <bcond>PEC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+        <boundary>
+            <xstart>91</xstart>
+            <ystart>5</ystart>
+            <xend>106</xend>
+            <yend>5</yend>
+            <bcond>PMC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+        <boundary>
+            <xstart>1</xstart>
+            <ystart>0</ystart>
+            <xend>1</xend>
+            <yend>370</yend>
+            <bcond>PMC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+        <boundary>
+            <xstart>46</xstart>
+            <ystart>0</ystart>
+            <xend>46</xend>
+            <yend>370</yend>
+            <bcond>PMC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+        <boundary>
+            <xstart>91</xstart>
+            <ystart>0</ystart>
+            <xend>91</xend>
+            <yend>370</yend>
+            <bcond>PMC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+        <boundary>
+            <xstart>1</xstart>
+            <ystart>370</ystart>
+            <xend>16</xend>
+            <yend>370</yend>
+            <bcond>MTC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+        <boundary>
+            <xstart>46</xstart>
+            <ystart>370</ystart>
+            <xend>61</xend>
+            <yend>370</yend>
+            <bcond>MTC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+        <boundary>
+            <xstart>91</xstart>
+            <ystart>370</ystart>
+            <xend>106</xend>
+            <yend>370</yend>
+            <bcond>MTC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+        <boundary>
+            <xstart>16</xstart>
+            <ystart>0</ystart>
+            <xend>16</xend>
+            <yend>370</yend>
+            <bcond>PMC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+        <boundary>
+            <xstart>61</xstart>
+            <ystart>0</ystart>
+            <xend>61</xend>
+            <yend>370</yend>
+            <bcond>PMC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+        <boundary>
+            <xstart>106</xstart>
+            <ystart>0</ystart>
+            <xend>106</xend>
+            <yend>370</yend>
+            <bcond>PMC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+
+        
+        
+	</simulation>
