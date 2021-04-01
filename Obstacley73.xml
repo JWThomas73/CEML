@@ -9,10 +9,10 @@
         
         
 		<planewave>
-            <xstart>135</xstart>
-            <ystart>1</ystart>
-            <xend>135</xend>
-            <yend>1</yend>
+            <xstart>40</xstart>
+            <ystart>30</ystart>
+            <xend>60</xend>
+            <yend>30</yend>
             <pwtype>STANDARD</pwtype>
             <wavelength>30</wavelength>
             <tsstart>0</tsstart>
@@ -22,16 +22,42 @@
        
 		
 		<boundary>
-            <xstart>105</xstart>
-            <ystart>45</ystart>
-            <xend>165</xend>
-            <yend>45</yend>
+            <xstart>30</xstart>
+            <ystart>15</ystart>
+            <xend>40</xend>
+            <yend>11.25</yend>
             <bcond>MTC</bcond>
             <meshedge>INTERNAL</meshedge>
         </boundary>
 		
+		<boundary>
+            <xstart>40</xstart>
+            <ystart>11.25</ystart>
+            <xend>50</xend>
+            <yend>10</yend>
+            <bcond>MTC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
 		
-		
+
+<boundary>
+            <xstart>50</xstart>
+            <ystart>10</ystart>
+            <xend>60</xend>
+            <yend>11.25</yend>
+            <bcond>MTC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
+<boundary>
+            <xstart>60</xstart>
+            <ystart>11.25</ystart>
+            <xend>70</xend>
+            <yend>15</yend>
+            <bcond>MTC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+
 		
      
 
