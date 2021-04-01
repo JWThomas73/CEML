@@ -1,0 +1,77 @@
+<feed>
+	  <simulation>
+		<simtitle>Obstacle</simtitle>
+		<nodesx>270</nodesx>
+		<nodesy>370</nodesy>
+		<nodesz>0</nodesz>
+		<timesteps>0</timesteps>
+		<vismode>Ez</vismode>
+        
+        
+		<planewave>
+            <xstart>135</xstart>
+            <ystart>1</ystart>
+            <xend>135</xend>
+            <yend>1</yend>
+            <pwtype>STANDARD</pwtype>
+            <wavelength>30</wavelength>
+            <tsstart>0</tsstart>
+        </planewave>
+		
+		
+       
+		
+		<boundary>
+            <xstart>105</xstart>
+            <ystart>45</ystart>
+            <xend>165</xend>
+            <yend>45</yend>
+            <bcond>MTC</bcond>
+            <meshedge>INTERNAL</meshedge>
+        </boundary>
+		
+		
+		
+		
+     
+
+        <!-- Edge boundaries: take note of the start and end coordinates - these match with the included simulation modes within the app! -->
+        <boundary>
+            <xstart>0</xstart>
+            <ystart>0</ystart>
+            <xend>270</xend>
+            <yend>0</yend>
+            <bcond>MTC</bcond>
+            <meshedge>TOP</meshedge>
+        </boundary>
+        
+        <boundary>
+            <xstart>0</xstart>
+            <ystart>370</ystart>
+            <xend>270</xend>
+            <yend>370</yend>
+            <bcond>MTC</bcond>
+            <meshedge>BOTTOM</meshedge>
+        </boundary>
+        
+        <boundary>
+            <xstart>0</xstart>
+            <ystart>0</ystart>
+            <xend>0</xend>
+            <yend>370</yend>
+            <bcond>MTC</bcond>
+            <meshedge>LEFT</meshedge>
+        </boundary>
+        
+        <boundary>
+            <xstart>270</xstart>
+            <ystart>0</ystart>
+            <xend>270</xend>
+            <yend>370</yend>
+            <bcond>MTC</bcond>
+            <meshedge>RIGHT</meshedge>
+        </boundary>
+        
+	  </simulation>
+        
+</feed>
